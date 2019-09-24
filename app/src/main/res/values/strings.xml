@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ReviseProject</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+
+
+    <string name="title_1"> Title 1</string>
+    <string name="title_2"> Title 2</string>
+    <string name="title_3"> Title 3</string>
+    <string name="title_4"> Title 4</string>
+
+    <string name="description_1"> This is Desvription one</string>
+    <string name="description_2"> This is Desvription two</string>
+    <string name="description_3"> This is Desvription three</string>
+    <string name="description_4"> This is Desvription four</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="dummy">this is just a dummy message</string>
+
+    <string name="my_preference">com.practice.reviseproject.WelcomeIntroducer</string>
+    <string name="my_preference_key">com.practice.reviseproject.WelcomeIntroducer_key</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="Contry_names">
+        <item>
+            india
+        </item>
+        <item>
+            indiagrhytjuy
+        </item>
+        <item>
+            indiahfgjk
+        </item>
+        <item>
+            indiadghjgkjkh
+        </item>
+        <item>
+            indiagfnhmj,hkj.l
+        </item>
+
+        <item>
+            pakisthan
+        </item>
+        <item>
+            usa
+        </item>
+        <item>
+            africa
+        </item>
+        <item>
+            china
+        </item>
+        <item>
+            ryssia
+        </item>
+    </string-array>
+
+</resources>

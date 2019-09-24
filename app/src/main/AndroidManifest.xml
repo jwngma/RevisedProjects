@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.practice.reviseproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CollapsingToolbar.CollapseTitleActivity"></activity>
+        <activity android:name=".Room.RoomActivity" />
+        <activity android:name=".BroadCastReceivers.prabeesh.PrabeeshActivity" />
+        <activity android:name=".contentProvider.ContentProviderActivity" />
+        <activity android:name=".BroadCastReceivers.activities.OrderedBroadCastReceiverActivity" />
+        <activity android:name=".BroadCastReceivers.activities.ExplicitBroadcastActivity" />
+        <activity android:name=".BroadCastReceivers.activities.CustomBroadCastReceiverActivity" />
+        <activity android:name=".BroadCastReceivers.activities.BroadCastReceierActivity" />
+        <activity android:name=".notification.ReplyReceiverActivity" />
+        <activity android:name=".notification.NoActivity" />
+        <activity android:name=".notification.YesActivity" />
+        <activity android:name=".notification.LandingActivity" />
+        <activity android:name=".notification.NotificationActivity" />
+        <activity android:name=".deta_with_retro.activities.SecondTryActivity" />
+        <activity android:name=".deta_with_retro.DataRetriveActivity" />
+        <activity android:name=".WelcomeIntroducer.Prabesh.WelcomeStartActivity" />
+        <activity android:name=".WelcomeIntroducer.Prabesh.PrabeshActivity" />
+        <activity android:name=".Recyclerview.Practice.RecyPracticeActivity" />
+        <activity android:name=".Sqlite.OperationsActivity" />
+        <activity android:name=".Sqlite.SqliteActivity" />
+        <activity android:name=".SharedPreference.SharedPreferenceActivity" />
+        <activity android:name=".AndroidPermission.MultiplePermissionRequest.MultiplePermissionActivity" />
+        <activity android:name=".WelcomeIntroducer.WelcomeIntro.LoadHomeActivity" />
+        <activity android:name=".WelcomeIntroducer.WelcomeIntro.WelcomeIntroducerActivity" />
+        <activity android:name=".Recyclerview.Recyclerview_try1.Recyclerview_try1Activity" />
+        <activity android:name=".Recyclerview.Mitch.MitchRecyclerviewActivity" />
+        <activity android:name=".Progressbar.AlertProgressActivity" />
+        <activity android:name=".Progressbar.ProgressbarActivity" />
+        <activity android:name=".ConnectedNotwork.Prabesh78.NetworkStatusActivity" />
+        <activity android:name=".ConnectedNotwork.NetworkCheckingActivity" />
+        <activity android:name=".GridLayout.GridLayoutActivity" />
+        <activity android:name=".BottomNavigationView.BottomNavigationActivity" />
+        <activity android:name=".AndroidPermission.AndroidPermissionActivity" />
+        <activity android:name=".AlertDialog.AlertDialogActivity" />
+        <activity android:name=".Viewpager.ImageSlider.ImageSliderActivity" />
+        <activity android:name=".Viewpager.ViewPagerActivity" />
+        <activity android:name=".Camera.CameraActivity" />
+        <activity android:name=".PopupMenu.PopupMenuActivity" />
+        <activity android:name=".ListView.ListView_With_Contextual_MenuActivity" />
+        <activity android:name=".ContextualActionMode.ContextualAtionModeActivity" />
+        <activity android:name=".FloatingContextualMenu.FloatingContextualMenuActivity" />
+        <activity android:name=".TimePicker.TimePickerDialogShortActivity" />
+        <activity android:name=".TimePicker.TimePickerActivity" />
+        <activity android:name=".Recyclerview.RecyclerviewActivity" />
+        <activity android:name=".ListView.ListViewActivity" />
+        <activity android:name=".Spinner.SpinnerActivity" />
+        <activity android:name=".RadioButton.RadioButtonActivity" />
+        <activity android:name=".CheckBox.CheckBoxActivity" />
+        <activity android:name=".AutoCompleteTextView.AutoCompleteTextViewActivity" />
+        <activity android:name=".Navigation_Drawer.NavigationDrawerActivity" />
+        <activity android:name=".CollapsingToolbar.CollapsingToolbarActivity" />
+        <activity android:name=".menu.MenuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".BroadCastReceivers.prabeesh.broadcastReceiver.NumberReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadCastReceivers.explicitBroadCastReceiver.ExplicitBroadcastReceiver" />
+        <receiver android:name=".BroadCastReceivers.orderedBroadCastReceiver.OrderBroadcastReceiver1">
+            <intent-filter>
+                <action android:name="com.practice.reviseproject.BroadCastReceivers.package.123" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadCastReceivers.orderedBroadCastReceiver.OrderBroadcastReceiver2">
+            <intent-filter>
+                <action android:name="com.practice.reviseproject.BroadCastReceivers.package.123" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadCastReceivers.orderedBroadCastReceiver.OrderBroadcastReceiver3">
+            <intent-filter>
+                <action android:name="com.practice.reviseproject.BroadCastReceivers.package.123" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

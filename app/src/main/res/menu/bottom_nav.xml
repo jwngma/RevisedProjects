@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Home"
+        android:id="@+id/bot_home"
+        android:icon="@drawable/help_icon"/>
+    <item
+        android:title="Account"
+        android:id="@+id/bot_account"
+        android:icon="@drawable/add"/>
+    <item
+        android:title="Setting"
+        android:id="@+id/bot_setting"
+        android:icon="@drawable/help_icon"/>
+
+</menu>

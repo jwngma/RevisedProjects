@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBox.CheckBoxActivity">'
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the Fruits from the List"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/apple"
+        android:onClick="checkbox_selected"
+        android:text="Apple"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mango"
+        android:onClick="checkbox_selected"
+        android:text="Mango"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lion"
+        android:onClick="checkbox_selected"
+        android:text="Lion"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guava"
+        android:onClick="checkbox_selected"
+        android:text="Guava"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Selection"
+        android:onClick="AllSelected"/>
+
+    <TextView
+        android:id="@+id/final_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Selected Fruit Name Will Appear Here"/>
+
+
+</LinearLayout>

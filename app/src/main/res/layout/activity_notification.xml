@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".notification.NotificationActivity">
+
+
+    <Button
+        android:id="@+id/noti_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="send Notification for naugat"
+        android:onClick="notification"/>
+
+    <Button
+        android:id="@+id/noti_btn_above_naugat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="send Notification for above naugat"
+        android:onClick="notification"/>
+
+    <Button
+        android:id="@+id/noti_btn_onclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="On Click on Notification"
+        android:onClick="notification"
+        />
+
+    <Button
+        android:id="@+id/noti_btn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Button On Notification Notification"
+        android:onClick="notification"/>
+    <Button
+        android:id="@+id/noti_btn_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Reply Direct from notification Notification"
+        android:onClick="notification"/>
+
+    <Button
+        android:id="@+id/noti_btn_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Downloading progress in notification"
+        android:onClick="notification"/>
+    <Button
+        android:id="@+id/noti_btn_expandable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Expandable notification"
+        android:onClick="notification"/>
+
+    <Button
+        android:id="@+id/noti_btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Custom  notification"
+        android:onClick="notification"/>
+</LinearLayout>

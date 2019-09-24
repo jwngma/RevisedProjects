@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioButton.RadioButtonActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/applee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioButton"
+            android:text="Apple" />
+        <RadioButton
+            android:id="@+id/mangoo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioButton"
+            android:text="Mango" />
+
+        <RadioButton
+            android:id="@+id/guavaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioButton"
+            android:text="Guava" />
+
+        <RadioButton
+            android:id="@+id/lionn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioButton"
+            android:text="Lion" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/final_selected_text"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Text Will Appear here"/>
+
+</LinearLayout>

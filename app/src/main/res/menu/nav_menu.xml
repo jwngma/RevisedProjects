@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/add"/>
+    <item
+        android:title="Home1"
+        android:id="@+id/nav_home1"
+        android:icon="@drawable/add"/>
+    <item
+        android:title="Home2"
+        android:id="@+id/nav_home3"
+        android:icon="@drawable/add"/>
+    <item
+        android:title="Home4"
+        android:id="@+id/nav_home4"
+        android:icon="@drawable/add"/>
+    <item
+        android:title="Home5"
+        android:id="@+id/nav_home5"
+        android:icon="@drawable/add"/>
+
+
+    <item
+        android:title="Title 1"
+        android:checkable="true"
+        >
+
+        <menu>
+
+            <item
+                android:title="Facebook"
+                android:checkable="true"
+                android:icon="@drawable/add"
+                />
+            <item
+                android:title="Book"
+                android:checkable="true"
+                android:icon="@drawable/add"
+                />
+            <item
+                android:title="Bathroom"
+                android:checkable="true"
+                android:icon="@drawable/add"
+                />
+            <item
+                android:title="Cycle"
+                android:checkable="true"
+                android:icon="@drawable/add"
+                />
+            <item
+                android:title="Pendrive"
+                android:checkable="true"
+                android:icon="@drawable/add"
+                />
+            <item
+                android:title="Team Work"
+                android:checkable="true"
+                android:icon="@drawable/add"
+                />
+        </menu>
+    </item>
+</menu>
